@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.temperature-container {
+    width: 700px;
+    border: 2px solid  #027b5b;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px gray;
+    
+}
+
+h2{  color: #027b5b;
+        padding-left: 20px;
+        margin-top: 40px;
+}
+
+p{
+    color: #027b5b;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.result{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #027b5b;
+    color: white;
+}
+
+#userinput {
+    margin-top:5px;
+    margin-left: 20px;
+    
+}
+
+#selectTo{
+    margin-top:5px;
+    margin-left: 20px;
+    padding-right: 120px;
+    margin-bottom: 20px;
+    
+}
+
+.button{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+button{
+    color: white;
+    background-color: #027b5b;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+background-color:black;
+}
+select{
+    padding-top:1.1px;
+    padding-bottom:1.2px; 
+}
