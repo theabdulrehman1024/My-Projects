@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generatore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img src="./techpathshala.png" >
+        </div>
+        <div id="allquote">
+            <button id="allquote-button" placeholder="All Quote" onclick="">All Quote</button>
+        </div>
+    </div>
+        
+    <h1>Let's Start Genereating Quotes</h1>
+    <section id="display-box">
+        <div id="display-quote">
+            <p id="quote">Quote of the Day</p>
+            <p id="author">Author name</p>
+        </div>
+    </section>
+
+    <button id="Generate-quote" onclick="displayQuote()">Generate Quote</button>
+    <br>
+    <label for="new-quote" >Add New Quote</label>
+    <br>
+    <input type="text" id="new-quote" placeholder="Add New Quote here">
+    
+ <div class="twobox">    
+    <label for="author-name" >Name</label>
+    <br>
+    <input type="text" id="author-name" placeholder="Enter Author Name">
+    <button id="add-quote" onclick="addingQuote()">Add Quote</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
